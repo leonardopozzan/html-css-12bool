@@ -4,7 +4,6 @@
     --green: #00E165;
 }
 .my-cell {
-    border: 1px solid transparent;
     min-height: 50px;
     padding: 10px;
     color: var(--white);
@@ -12,7 +11,10 @@
 }
 .blue {
     background-color: var(--blue);
+    border: 1px solid var(--white);
+
 }
 .green {
     background-color: var(--green);
+    border: 1px solid var(--blue);
 }
